@@ -1,21 +1,24 @@
-project_name = "binaitech"
-environment  = "prod"
-aws_region   = "eu-west-3"
+# Copy this file to terraform.tfvars and fill in real values.
+# NEVER commit terraform.tfvars itself to version control (add it to .gitignore).
 
-vpc_cidr                = "10.1.0.0/16"   # distinct range from dev/staging to allow future VPC peering
+project_name = "AAAAAAA"
+environment  = "prod"
+aws_region   = "eu-west-1"
+
+vpc_cidr                = "10.0.0.0/16"
 availability_zone_count = 3
 
-domain_name          = "binaitech.com"
+domain_name          = "AAAAA.com"
 acm_certificate_arn  = "arn:aws:acm:eu-west-3:123456789012:certificate/REPLACE-ME"
 
 app_ami_id         = "ami-REPLACE-ME"
-app_instance_type  = "t3.large"     # larger than dev — real production load
+app_instance_type  = "t3.large"
 key_name            = null
 
-db_username = "binaitech_admin"
+db_username = "AAAAA"
 
-alert_emails = ["mhbloctobre@gmail.com", "mohamedballouk165@gmail.com"]
+alert_emails = ["AAAA@gmail.com"]
 
-asg_min_size         = 3    # 3 for prod: survives losing one AZ and still has 2 healthy instances
+asg_min_size         = 3
 asg_max_size          = 20
 asg_desired_capacity  = 3
