@@ -1,0 +1,11 @@
+**/terraform.tfstate.backup
+**/destroy.tfplan
+**/tfplan
+**/terraform.tfvars
+**/destroy.tfplan
+**/backend.tf.disabled
+**/aws_grafana_schema.txt
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/.terraform/
+**/.terraform_schema.json
