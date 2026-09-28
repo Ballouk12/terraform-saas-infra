@@ -8,7 +8,7 @@ aws_region   = "eu-west-1"
 vpc_cidr                = "10.0.0.0/16"
 availability_zone_count = 3
 
-domain_name          = "binaitech.com"
+domain_name          = "AAAAA.com"
 acm_certificate_arn  = "arn:aws:acm:eu-west-3:123456789012:certificate/REPLACE-ME"
 
 app_ami_id         = "ami-REPLACE-ME"
