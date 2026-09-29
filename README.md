@@ -74,7 +74,7 @@ Les instances récupèrent au démarrage la version applicative dans Parameter S
 
 ## Environnements
 
-Chaque environnement possède son propre dossier sous `environments/` et compose les modules partagés avec ses variables et paramètres de résilience.
+Chaque environnement possède son propre dossier sous `environments/` et compose les modules partagés avec ses variables et paramètres de résilience..
 
 | Environnement | Configuration notable |
 |---|---|
